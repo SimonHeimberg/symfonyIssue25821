@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "12a871185523a5a62e129ae4ea7a834c",
+    "content-hash": "63116965c56ab1c63ec6981c5ed13592",
     "packages": [
         {
             "name": "cubetools/cube-custom-fields-bundle",
-            "version": "dev-withNewerSymfony_WIP",
+            "version": "dev-14_em",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EmchBerger/cube-custom-fields-bundle.git",
-                "reference": "ee70903f2b85b07ab8d721e4b95c28204fe1b3e6"
+                "reference": "bdcd8fc7451bc01eb52a787e0bc27c98ec26af01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EmchBerger/cube-custom-fields-bundle/zipball/ee70903f2b85b07ab8d721e4b95c28204fe1b3e6",
-                "reference": "ee70903f2b85b07ab8d721e4b95c28204fe1b3e6",
+                "url": "https://api.github.com/repos/EmchBerger/cube-custom-fields-bundle/zipball/bdcd8fc7451bc01eb52a787e0bc27c98ec26af01",
+                "reference": "bdcd8fc7451bc01eb52a787e0bc27c98ec26af01",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 }
             ],
             "description": "Custom fields in forms and entities",
-            "time": "2018-01-17T11:44:42+00:00"
+            "time": "2018-01-25T16:29:05+00:00"
         },
         {
             "name": "doctrine/annotations",
