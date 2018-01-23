@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7a426ce1c8948a12d8e8f78060c823c",
+    "content-hash": "12a871185523a5a62e129ae4ea7a834c",
     "packages": [
+        {
+            "name": "cubetools/cube-custom-fields-bundle",
+            "version": "dev-withNewerSymfony_WIP",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EmchBerger/cube-custom-fields-bundle.git",
+                "reference": "ee70903f2b85b07ab8d721e4b95c28204fe1b3e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EmchBerger/cube-custom-fields-bundle/zipball/ee70903f2b85b07ab8d721e4b95c28204fe1b3e6",
+                "reference": "ee70903f2b85b07ab8d721e4b95c28204fe1b3e6",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": "^2.5",
+                "php": ">=5.4",
+                "symfony/form": "^2.7|^3.0",
+                "symfony/framework-bundle": "^2.7|^3.0"
+            },
+            "require-dev": {
+                "cubetools/cube-common-develop": "0.*|^1.0.0",
+                "symfony/phpunit-bridge": "^2.7|^3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "CubeTools\\CubeCustomFieldsBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CUBE Team of Emch + Berger AG Bern",
+                    "homepage": "http://www.cubetools.ch"
+                }
+            ],
+            "description": "Custom fields in forms and entities",
+            "time": "2018-01-17T11:44:42+00:00"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.4.0",
@@ -3279,7 +3322,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cubetools/cube-custom-fields-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

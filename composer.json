@@ -6,6 +6,7 @@
     "require": {
         "php": "^7.0.8",
         "ext-iconv": "*",
+        "cubetools/cube-custom-fields-bundle": "dev-withNewerSymfony_WIP",
         "symfony/console": "^3.4",
         "symfony/flex": "^1.0",
         "symfony/form": "^3.4",

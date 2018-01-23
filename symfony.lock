@@ -1,4 +1,7 @@
 {
+    "cubetools/cube-custom-fields-bundle": {
+        "version": "1.2.4"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
